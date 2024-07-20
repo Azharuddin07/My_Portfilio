@@ -1,0 +1,957 @@
+/* --------------------------------------media query for mobile------------------------------------------- */
+@media only screen and (min-width: 950px)
+{
+
+  body
+{
+  background-color: black;
+}
+.nav-item a
+{
+  color: black;
+  font-size: 20px;
+}
+.container-fluid1
+{
+  padding: 10px;
+}
+.zoom
+{
+  padding: 1px;
+  transition: transform .2s;
+}
+
+.zoom:hover 
+{
+  -ms-transform: scale(1); /* IE 9 */
+  -webkit-transform: scale(1); /* Safari 3-8 */
+  transform: scale(1.2); 
+}
+b
+{
+  padding-left: 20px;
+}
+marquee
+{
+  background-color: black;
+  color: aliceblue;
+  font-size:medium;
+}
+
+/* Home page */
+#Home
+{
+  padding: 20px;
+  border-radius: 5px;
+  height: 500px;
+  text-align: center;
+  padding-top: 125px;
+}
+.Home_name
+{
+    font-size: 80px;
+    font-family: sans-serif;
+}
+.btn
+{
+    width:125px;
+    height: 50px; 
+    font-size: x-large;
+}
+input
+{
+  margin-top: 35px;
+}
+input:hover
+{
+  -ms-transform: scale(1); /* IE 9 */
+  -webkit-transform: scale(1); /* Safari 3-8 */
+  transform: scale(1.2); 
+}
+
+/* About page */
+#About
+{
+  padding: 90px 20px 20px 30px;
+  height: 600px;
+  margin-top:50px ;
+}
+.About1
+{
+  display: flex;
+  flex-direction: row;
+}
+.About_text_card
+{
+  margin-right:50px ;
+  box-shadow: 3px 3px 3px 3px rgb(133, 130, 130);
+  padding: 80px 20px 20px 20px;
+}
+.About_text_card:hover
+{
+  background-color:rgb(12, 24, 13) ;
+}
+.About_button
+{
+    border-radius: 5px;
+    font-size:x-large;
+    background-color: rgb(10, 10, 10);
+    color: aliceblue;
+    margin-left: 400px;
+}
+.Text_content
+{
+    margin-top: 30px;
+    color: white;
+}
+.Text_name
+{
+   text-align: center;
+}
+.Text_seeking
+{
+  font-size: x-large;
+  font-family: 'Times New Roman', Times, serif;
+  margin-left: 18px;
+}
+.My_Profile_pic
+{
+  border-radius: 50%;
+  width: 400px;
+  height: 400px;
+}
+.Profile_pic_card
+{
+  border-radius:500px;
+}
+.Text_content:a
+{
+  text-decoration: none;
+  color: rgb(241, 241, 242);
+  font-size: 25px;
+
+}
+
+
+
+
+/* Education */
+
+#Education
+{
+  margin-top: 50px;
+  height: 600px;
+  padding-top: 70px;
+}
+.Education_heading
+{
+    border-radius: 5px;
+    border-color: rgb(168, 168, 168);
+    background-color:  aliceblue ;
+    font-size:x-large;
+    color: rgb(8, 8, 8);
+    margin-left: 605px;
+    height: 40px;
+    margin-top: 20px;
+}
+.Education_flex
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.School_card
+{
+    box-shadow:3px 3px 3px 3px rgb(133, 130, 130);
+    width: 400px;
+    height: 350px;
+    background-color: black;
+}
+.School_card:hover
+{
+  background-color:rgb(12, 24, 13) ;
+  -ms-transform: scale(1); /* IE 9 */
+  -webkit-transform: scale(1); /* Safari 3-8 */
+  transform: scale(1.1);
+}
+.School_img
+{
+    margin-left: 125px;
+    margin-top: 50px;
+}
+.School_ssc
+{
+    margin-left:145px;
+    color: white;
+}
+.School_name
+{
+    font-size: large;
+    margin-left: 35px;
+    color: #b700abf9;
+}
+.Intermediate_card
+{
+    box-shadow:3px 3px 3px 3px rgb(133, 130, 130) ;
+    width: 400px;
+    height: 350px;
+    background-color: black;
+}
+.Intermediate_card:hover
+{
+  background-color:rgb(12, 24, 13) ;
+  -ms-transform: scale(1); /* IE 9 */
+  -webkit-transform: scale(1); /* Safari 3-8 */
+  transform: scale(1.1);
+}
+.Intermediate_img
+{
+    margin-left: 125px;
+    margin-top: 45px;
+}
+.Intermediate_inter
+{
+    margin-left: 118px;
+    color: white;
+}
+.Intermediate_name
+{
+    font-size: large;
+    margin-left: 50px;
+    color: #b700abf9;
+}
+.Intermediate_branch
+{
+    margin-left: 180px;
+    color: rgb(0, 136, 255)
+}
+.Graduation_card
+{
+    box-shadow:3px 3px 3px 3px rgb(133, 130, 130);
+    width: 400px;
+    height: 350px;
+    background-color: black;
+}
+.Graduation_card:hover
+{
+  background-color:rgb(12, 24, 13) ;
+  -ms-transform: scale(1); /* IE 9 */
+  -webkit-transform: scale(1); /* Safari 3-8 */
+  transform: scale(1.1);
+}
+.Graduation_img
+{
+    margin-left: 135px;
+    margin-top: 50px;
+}
+.Graduation_graduation
+{
+    margin-left:138px;
+    color: white;
+}
+.Graduation_name
+{
+    font-size: large;
+    margin-left: 50px;
+    color: #b700abf9;
+}
+.Graduation_branch
+{
+    margin-left: 38px;
+    color: rgb(0, 136, 255);
+}
+
+/* Skills */
+
+#Skills
+{
+ margin-top: 50px;
+ padding-top: 70px;
+}
+.Skills1
+{
+  padding-left: 175px;
+  height: 550px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.Skills_cards
+{
+  box-shadow: 3px 3px 3px 3px rgb(133, 130, 130);
+  justify-content: space-around;
+  width: 250px;
+  height: 220px;
+  margin-top: 30px;
+}
+.Skills_cards:hover
+{
+  background-color:rgb(12, 24, 13) ;
+  -ms-transform: scale(1); /* IE 9 */
+  -webkit-transform: scale(1); /* Safari 3-8 */
+  transform: scale(1.1);
+}
+.Skills_heading
+{
+    border-radius: 5px;
+    border-color: rgb(168, 168, 168);
+    background-color: aliceblue;
+    font-size:x-large;
+    color: rgb(8, 8, 8);
+    margin-left: 660px;
+    height: 40px;
+    margin-top: 20px;
+}
+.HTML_img
+{
+    height: 150px;
+    width: 150px;
+    border-radius: 25px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.HTML_text
+{
+    font-size: x-large;
+    font-family: Audiowide, sans-serif;
+    padding-left: 85px;
+    color: white;
+}
+.CSS_img
+{
+    height: 150px; 
+    width: 150px;
+    border-radius: 25px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.CSS_text
+{
+    font-size: x-large;
+    font-family: Audiowide, sans-serif;
+    padding-left: 97px;
+    color: white;
+}
+.JavaScript_img
+{
+    height: 150px;
+    width: 150px;
+    border-radius: 25px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.JavaScript_text
+{
+    font-size: x-large;
+    font-family: Audiowide, sans-serif;
+    padding-left: 50px;
+    color: white;
+}
+.Bootstrap_img
+{
+    height: 150px;
+    width: 150px;
+    border-radius: 25px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.Bootstrap_text
+{
+    font-size: x-large;
+    font-family: Audiowide, sans-serif;
+    padding-left: 55px;
+    color: white;
+}
+.React_img
+{
+    height: 150px;
+    width: 150px;
+    border-radius: 45px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.React_text
+{
+    font-size: x-large;
+    font-family: Audiowide, sans-serif;
+    padding-left: 73px;
+    color: white;
+}
+.Java_img
+{
+    height: 150px;
+    width: 150px;
+    border-radius: 40px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.Java_text
+{
+    font-size: x-large;
+    font-family: Audiowide, sans-serif;
+    padding-left: 90px;
+    color: white;
+}
+
+/* Works */
+
+#Works
+{
+  margin-top: 50px;
+  padding-top: 70px;
+}
+.carousels
+{
+  display: flex;
+  flex-direction: column;
+  margin-left: 250px;
+  margin-right: 250px;
+}
+.Works_heading
+{
+    border-radius: 5px;
+    border-color: rgb(168, 168, 168);
+    background-color: aliceblue;
+    font-size:x-large;
+    color: rgb(6, 6, 6);
+    margin-left: 660px;
+    height: 40px;
+    margin-top: 20px;
+}
+
+/* Contact */
+
+#Contact
+{
+  margin-top: 50px;
+  height: 600px;
+  padding-top: 10px;
+}
+.Contact_heading
+{
+    border-radius: 5px;
+    border-color: rgb(168, 168, 168);
+    background-color: aliceblue;
+    font-size:x-large;
+    color: rgb(6, 6, 6);
+    margin-left: 650px;
+    height: 40px;
+    margin-top: 30px;
+}
+i{
+  font-weight: bold;
+}
+.Contact1
+{
+  margin-top: 50px;
+  margin-left: 300px;
+  padding-top: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+  height: 400px;
+  width: 900px;
+  box-shadow: 3px 3px 3px 3px rgb(133, 130, 130);
+}
+.Contact1:hover
+{
+  background-color:rgb(12, 24, 13) ;
+  -ms-transform: scale(1); /* IE 9 */
+  -webkit-transform: scale(1); /* Safari 3-8 */
+  transform: scale(1.1);
+}
+.Text_icons
+{
+  display: flex;
+  flex-direction: row;
+}
+.Icon_footer
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+}
+
+
+ /* --------------------------------------media query for laptop & computer--------------------------------- */
+
+
+@media only screen and (max-width: 700px)
+{
+
+  body
+{
+  background-color: rgb(2, 2, 2);
+}
+
+.nav-item a
+{
+  color: rgb(254, 254, 254);
+  font-size: 20px;
+}
+.container-fluid1
+{
+  padding: 10px;
+}
+.zoom
+{
+  padding: 1px;
+  transition: transform .2s;
+}
+
+.zoom:hover 
+{
+  -ms-transform: scale(1); /* IE 9 */
+  -webkit-transform: scale(1); /* Safari 3-8 */
+  transform: scale(1.2); 
+}
+b
+{
+  padding-left: 20px;
+}
+marquee
+{
+  background-color: black;
+  color: aliceblue;
+  font-size:medium;
+}
+
+
+  
+/* Home page */
+#Home
+{
+  padding: 20px;
+  border-radius: 5px;
+  height: 500px;
+  text-align: center;
+  padding-top: 125px;
+}
+.Home_name
+{
+    font-size: 80px;
+    font-family: sans-serif;
+}
+.btn
+{
+    width:125px;
+    height: 50px; 
+    font-size: x-large;
+}
+input
+{
+  margin-top: 35px;
+}
+input:hover
+{
+  -ms-transform: scale(1); /* IE 9 */
+  -webkit-transform: scale(1); /* Safari 3-8 */
+  transform: scale(1.2); 
+}
+
+/* About page */
+#About
+{
+  padding: 90px 20px 20px 30px;
+  height: 600px;
+  margin-top:50px ;
+}
+.About1
+{
+  display: flex;
+  flex-direction: row;
+}
+.About_text_card
+{
+  margin-right:50px ;
+  box-shadow: 3px 3px 3px 3px rgb(133, 130, 130);
+  padding: 80px 20px 20px 20px;
+}
+.About_text_card:hover
+{
+  background-color:rgb(12, 24, 13) ;
+}
+.About_button
+{
+    border-radius: 5px;
+    font-size:x-large;
+    background-color: rgb(10, 10, 10);
+    color: aliceblue;
+    margin-left: 400px;
+}
+.Text_content
+{
+    margin-top: 30px;
+    color: white;
+}
+.Text_name
+{
+   text-align: center;
+}
+.Text_seeking
+{
+  font-size: x-large;
+  font-family: 'Times New Roman', Times, serif;
+  margin-left: 18px;
+}
+.My_Profile_pic
+{
+  border-radius: 50%;
+  width: 400px;
+  height: 400px;
+}
+.Profile_pic_card
+{
+  border-radius:500px;
+}
+.Text_content:a
+{
+  text-decoration: none;
+  color: rgb(241, 241, 242);
+  font-size: 25px;
+
+}
+
+
+
+
+/* Education */
+
+#Education
+{
+  margin-top: 50px;
+  height: 600px;
+  padding-top: 70px;
+}
+.Education_heading
+{
+    border-radius: 5px;
+    border-color: rgb(168, 168, 168);
+    background-color:  aliceblue ;
+    font-size:x-large;
+    color: rgb(8, 8, 8);
+    margin-left: 605px;
+    height: 40px;
+    margin-top: 20px;
+}
+.Education_flex
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.School_card
+{
+    box-shadow:3px 3px 3px 3px rgb(133, 130, 130);
+    width: 400px;
+    height: 350px;
+    background-color: black;
+}
+.School_card:hover
+{
+  background-color:rgb(12, 24, 13) ;
+  -ms-transform: scale(1); /* IE 9 */
+  -webkit-transform: scale(1); /* Safari 3-8 */
+  transform: scale(1.1);
+}
+.School_img
+{
+    margin-left: 125px;
+    margin-top: 50px;
+}
+.School_ssc
+{
+    margin-left:145px;
+    color: white;
+}
+.School_name
+{
+    font-size: large;
+    margin-left: 35px;
+    color: #b700abf9;
+}
+.Intermediate_card
+{
+    box-shadow:3px 3px 3px 3px rgb(133, 130, 130) ;
+    width: 400px;
+    height: 350px;
+    background-color: black;
+}
+.Intermediate_card:hover
+{
+  background-color:rgb(12, 24, 13) ;
+  -ms-transform: scale(1); /* IE 9 */
+  -webkit-transform: scale(1); /* Safari 3-8 */
+  transform: scale(1.1);
+}
+.Intermediate_img
+{
+    margin-left: 125px;
+    margin-top: 45px;
+}
+.Intermediate_inter
+{
+    margin-left: 118px;
+    color: white;
+}
+.Intermediate_name
+{
+    font-size: large;
+    margin-left: 50px;
+    color: #b700abf9;
+}
+.Intermediate_branch
+{
+    margin-left: 180px;
+    color: rgb(0, 136, 255)
+}
+.Graduation_card
+{
+    box-shadow:3px 3px 3px 3px rgb(133, 130, 130);
+    width: 400px;
+    height: 350px;
+    background-color: black;
+}
+.Graduation_card:hover
+{
+  background-color:rgb(12, 24, 13) ;
+  -ms-transform: scale(1); /* IE 9 */
+  -webkit-transform: scale(1); /* Safari 3-8 */
+  transform: scale(1.1);
+}
+.Graduation_img
+{
+    margin-left: 135px;
+    margin-top: 50px;
+}
+.Graduation_graduation
+{
+    margin-left:138px;
+    color: white;
+}
+.Graduation_name
+{
+    font-size: large;
+    margin-left: 50px;
+    color: #b700abf9;
+}
+.Graduation_branch
+{
+    margin-left: 38px;
+    color: rgb(0, 136, 255);
+}
+
+/* Skills */
+
+#Skills
+{
+ margin-top: 50px;
+ padding-top: 70px;
+}
+.Skills1
+{
+  padding-left: 175px;
+  height: 550px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.Skills_cards
+{
+  box-shadow: 3px 3px 3px 3px rgb(133, 130, 130);
+  justify-content: space-around;
+  width: 250px;
+  height: 220px;
+  margin-top: 30px;
+}
+.Skills_cards:hover
+{
+  background-color:rgb(12, 24, 13) ;
+  -ms-transform: scale(1); /* IE 9 */
+  -webkit-transform: scale(1); /* Safari 3-8 */
+  transform: scale(1.1);
+}
+.Skills_heading
+{
+    border-radius: 5px;
+    border-color: rgb(168, 168, 168);
+    background-color: aliceblue;
+    font-size:x-large;
+    color: rgb(8, 8, 8);
+    margin-left: 660px;
+    height: 40px;
+    margin-top: 20px;
+}
+.HTML_img
+{
+    height: 150px;
+    width: 150px;
+    border-radius: 25px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.HTML_text
+{
+    font-size: x-large;
+    font-family: Audiowide, sans-serif;
+    padding-left: 85px;
+    color: white;
+}
+.CSS_img
+{
+    height: 150px; 
+    width: 150px;
+    border-radius: 25px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.CSS_text
+{
+    font-size: x-large;
+    font-family: Audiowide, sans-serif;
+    padding-left: 97px;
+    color: white;
+}
+.JavaScript_img
+{
+    height: 150px;
+    width: 150px;
+    border-radius: 25px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.JavaScript_text
+{
+    font-size: x-large;
+    font-family: Audiowide, sans-serif;
+    padding-left: 50px;
+    color: white;
+}
+.Bootstrap_img
+{
+    height: 150px;
+    width: 150px;
+    border-radius: 25px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.Bootstrap_text
+{
+    font-size: x-large;
+    font-family: Audiowide, sans-serif;
+    padding-left: 55px;
+    color: white;
+}
+.React_img
+{
+    height: 150px;
+    width: 150px;
+    border-radius: 45px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.React_text
+{
+    font-size: x-large;
+    font-family: Audiowide, sans-serif;
+    padding-left: 73px;
+    color: white;
+}
+.Java_img
+{
+    height: 150px;
+    width: 150px;
+    border-radius: 40px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.Java_text
+{
+    font-size: x-large;
+    font-family: Audiowide, sans-serif;
+    padding-left: 90px;
+    color: white;
+}
+
+/* Works */
+
+#Works
+{
+  margin-top: 50px;
+  padding-top: 70px;
+}
+.carousels
+{
+  display: flex;
+  flex-direction: column;
+  margin-left: 250px;
+  margin-right: 250px;
+}
+.Works_heading
+{
+    border-radius: 5px;
+    border-color: rgb(168, 168, 168);
+    background-color: aliceblue;
+    font-size:x-large;
+    color: rgb(6, 6, 6);
+    margin-left: 660px;
+    height: 40px;
+    margin-top: 20px;
+}
+
+/* Contact */
+
+#Contact
+{
+  margin-top: 50px;
+  height: 600px;
+  padding-top: 10px;
+}
+.Contact_heading
+{
+    border-radius: 5px;
+    border-color: rgb(168, 168, 168);
+    background-color: aliceblue;
+    font-size:x-large;
+    color: rgb(6, 6, 6);
+    margin-left: 650px;
+    height: 40px;
+    margin-top: 30px;
+}
+i{
+  font-weight: bold;
+}
+.Contact1
+{
+  margin-top: 50px;
+  margin-left: 300px;
+  padding-top: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+  height: 400px;
+  width: 900px;
+  box-shadow: 3px 3px 3px 3px rgb(133, 130, 130);
+}
+.Contact1:hover
+{
+  background-color:rgb(12, 24, 13) ;
+  -ms-transform: scale(1); /* IE 9 */
+  -webkit-transform: scale(1); /* Safari 3-8 */
+  transform: scale(1.1);
+}
+.Text_icons
+{
+  display: flex;
+  flex-direction: row;
+}
+.Icon_footer
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+}
